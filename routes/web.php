@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('user/{user}', [UserController::class, 'show']);
 
+
 Route::get('/', function () {
     
     return view('welcome');
